@@ -1,5 +1,5 @@
 class QuizSerializer < ActiveModel::Serializer
-  attributes :id, :score
+  attributes :id, :score, :level_id
 
   belongs_to :level
   has_many :user_quizzes
