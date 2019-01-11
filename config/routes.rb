@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   resources :users, only: [:index, :create, :show]
   get '/current_user', to: "auth#show"
-
+  post '/login', to: "auth#create"
 end
