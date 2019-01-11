@@ -14,6 +14,13 @@ class UsersController < ApplicationController
     end
   end
 
+  def update
+    user = User.find(editUserParams[:id])
+    user.update(first_name: editUserParams[:first_name],last_name: editUserParams[:last_name],age: editUserParams[:age],username:editUserParams[:username])
+    user.save
+    render json: user
+  end
+
   def show
 
   end
@@ -22,6 +29,10 @@ class UsersController < ApplicationController
 
   def signUpParams
     params.require(:user).permit(:first_name, :last_name, :password, :age, :username)
+  end
+
+  def editUserParams
+    params.require(:user).permit(:first_name, :last_name, :age, :username, :id)
   end
 
 end
