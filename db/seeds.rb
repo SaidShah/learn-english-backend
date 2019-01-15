@@ -132,7 +132,7 @@
 # Vocabulary.create(category: "number",name: "zero", image_url:"https://images.pexels.com/photos/1447235/pexels-photo-1447235.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
 # Vocabulary.create(category: "number",name: "one hundred twenty three", image_url: "https://images.pexels.com/photos/1314536/pexels-photo-1314536.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
 # Vocabulary.create(category: "number",name: "one thousand", image_url: "https://images.pexels.com/photos/164638/pexels-photo-164638.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
-# 
+#
 #
 # Vocabulary.create(category:"fruit" ,name: "banana",image_url: "https://images.pexels.com/photos/1166648/pexels-photo-1166648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
 # Vocabulary.create(category:"fruit" ,name:"blackberry" ,image_url:"https://images.pexels.com/photos/257834/pexels-photo-257834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" )
@@ -151,3 +151,24 @@
 # Vocabulary.create(category:"fruit" ,name: "grapefruit",image_url: "https://images.pexels.com/photos/1435734/pexels-photo-1435734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
 # Vocabulary.create(category:"fruit" ,name: "kiwi",image_url:"https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" )
 # Vocabulary.create(category:"fruit" ,name: "mango",image_url: "https://images.pexels.com/photos/39303/mango-tropical-fruit-juicy-sweet-39303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
+
+
+#<ActiveRecord::Relation [#<Exercise id: 1, name: "Vocabulary", level_id: 1, created_at: "2019-01-10 16:07:55", updated_at: "2019-0
+#
+# <ActiveRecord::Relation [#<Exercise id: 1, name: "Vocabulary", level_id: 1, created_at: "2019-01-10 16:07:55", updated_at: "2019-0
+# 1-10 16:07:55">, #<Exercise id: 2, name: "Alphabet", level_id: 1, created_at: "2019-01-10 16:08:35", updated_at: "2019-01-10 16:08:35">
+# , #<Exercise id: 3, name: "Numbers", level_id: 1, created_at: "2019-01-10 16:09:00", updated_at: "2019-01-10 16:09:00">, #<Exercise id:
+#  4, name: "Fill In The Blanks", level_id: 2, created_at: "2019-01-10 16:10:17", updated_at: "2019-01-10 16:10:17">, #<Exercise id: 5, n
+# ame: "Listen and Spell", level_id: 2, created_at: "2019-01-10 16:10:45", updated_at: "2019-01-10 16:10:45">, #<Exercise id: 6, name: "U
+# nscramble Words", level_id: 2, created_at: "2019-01-10 16:11:08", updated_at: "2019-01-10 16:11:08">, #<Exercise id: 7, name: "Make a S
+# entence With Given Words", level_id: 3, created_at: "2019-01-10 16:11:48", updated_at: "2019-01-10 16:11:48">, #<Exercise id: 8, name:
+# "Fill In The Blanks Grammer", level_id: 3, created_at: "2019-01-10 16:12:45", updated_at: "2019-01-10 16:12:45">, #<Exercise id: 9, nam
+# e: "Guess a Word Based on Definition", level_id: 3, created_at: "2019-01-10 16:13:38", updated_at: "2019-01-10 16:13:38">]>
+#
+# Exercise.create(name: "Fruit", level_id: 1)
+# Exercise.create(name: "Vegetables", level_id: 1)
+# Exercise.create(name: "Clothes", level_id: 1)
+# Exercise.create(name: "Animals", level_id: 1)
+# Exercise.create(name: "Body Parts", level_id: 1)
+# Exercise.create(name: "Numbers", level_id: 1)
+# Exercise.create(name: "Random Words", level_id: 1)
