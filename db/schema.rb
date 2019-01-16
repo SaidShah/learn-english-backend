@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_14_144213) do
+ActiveRecord::Schema.define(version: 2019_01_15_220028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,17 @@ ActiveRecord::Schema.define(version: 2019_01_14_144213) do
 
   create_table "levels", force: :cascade do |t|
     t.string "level_number"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "part_of_speeches", force: :cascade do |t|
+    t.string "category"
+    t.string "definition"
+    t.string "examples"
+    t.string "sentences"
+    t.string "solutions"
+    t.string "words_to_use"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
