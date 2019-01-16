@@ -205,7 +205,7 @@
 # ", solutions: "Tony is with me. We will meet you at lunch time
 # ", words_to_use:  "It,You,Many,Herself,He,You,They,We,I,He,It,Us,We")
 
-
+# 
 # PartOfSpeech.create(category:"noun" , definition:"A noun is a part of speech used to name a person, animal, place, thing, or abstract concept. 
 # The simplest definition of a noun is a thing and nouns are the basic building blocks of sentences. These things can represent a person, animal, place, idea, emotion – almost any thing that you can think of." , examples:"Man, Mountain, State, Ocean, Country, Building, Cat, Airline, Walt Disney, Mount Kilimanjaro, Minnesota, Atlantic Ocean and Australia" , sentences:"The ___ fell and broke" , solutions:"The cup fell and broke" , words_to_use:"cup,beauty,buses,cities,country’s,hunters,students,john,restaurant,eiffel,tower,money,trees,dog,cat" )
 #
@@ -241,9 +241,9 @@
 #
 # PartOfSpeech.create(category:"noun" , definition: "A noun is a part of speech used to name a person, animal, place, thing, or abstract concept. 
 # The simplest definition of a noun is a thing and nouns are the basic building blocks of sentences. These things can represent a person, animal, place, idea, emotion – almost any thing that you can think of.", examples:"Man, Mountain, State, Ocean, Country, Building, Cat, Airline, Walt Disney, Mount Kilimanjaro, Minnesota, Atlantic Ocean and Australia" , sentences: "The ___ barked at the ___", solutions: "The dog barked at the cat", words_to_use:"cup,beauty,buses,cities,country’s,hunters,students,john,restaurant,eiffel,tower,money,trees,dog,cat" )
-
-
-
+#
+#
+#
 
 
 #
@@ -470,7 +470,7 @@
 
 
 
-# 
+#
 # PartOfSpeech.create(category: "interjection", definition: "An interjection is a word or phrase that is grammatically independent from the words around it, and mainly expresses feeling rather than meaning, We use interjections to express emotions such as pleasure, surprise, shock and disgust. Most interjections are just sounds, rather than actual words, and come at the beginning or at the end of what we say. Interjections are more common in speaking than in writing.",examples: "Oh Dear,Pip Pip,Shoot,Well, Duh",sentences: "____, that feels wonderful",solutions:"Ahh, that feels wonderful" , words_to_use:"Ahh,Alas,Bah,Bless you,Cheerio,Congrats,Crikey,Good grief,Grrr,Humph,Oh dear,Pip pip,Shoot,Well, duh" )
 #
 # PartOfSpeech.create(category: "interjection", definition: "An interjection is a word or phrase that is grammatically independent from the words around it, and mainly expresses feeling rather than meaning, We use interjections to express emotions such as pleasure, surprise, shock and disgust. Most interjections are just sounds, rather than actual words, and come at the beginning or at the end of what we say. Interjections are more common in speaking than in writing.",examples: "Oh Dear,Pip Pip,Shoot,Well, Duh",sentences: "____! I'm lost in the wilderness",solutions: "Alas! I'm lost in the wilderness", words_to_use:"Ahh,Alas,Bah,Bless you,Cheerio,Congrats,Crikey,Good grief,Grrr,Humph,Oh dear,Pip pip,Shoot,Well,duh" )
