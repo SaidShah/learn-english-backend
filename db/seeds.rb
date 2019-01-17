@@ -501,27 +501,193 @@
 # PartOfSpeech.create(category: "interjection", definition: "An interjection is a word or phrase that is grammatically independent from the words around it, and mainly expresses feeling rather than meaning, We use interjections to express emotions such as pleasure, surprise, shock and disgust. Most interjections are just sounds, rather than actual words, and come at the beginning or at the end of what we say. Interjections are more common in speaking than in writing.",examples: "Oh Dear,Pip Pip,Shoot,Well, Duh",sentences:"___ _____! That was a stupid thing to do!" ,solutions: "Well duh! That was a stupid thing to do!", words_to_use:"Ahh,Alas,Bah,Bless you,Cheerio,Congrats,Crikey,Good grief,Grrr,Humph,Oh dear,Pip pip,Shoot,Well, duh" )
 
 
-Scramble.create(category:"easyWord", scrambled: "autbo",solution:"about")
-Scramble.create(category:"easyWord", scrambled: "ovabe",solution:"above")
-Scramble.create(category:"easyWord", scrambled: "osascr",solution:"across")
-Scramble.create(category:"easyWord", scrambled: "cat",solution:"act")
-Scramble.create(category:"easyWord", scrambled: "aecitv",solution:"active")
-Scramble.create(category:"easyWord", scrambled: "tctvyiia",solution:"activity")
-Scramble.create(category:"easyWord", scrambled: "yduocl",solution:"cloudy")
-Scramble.create(category:"easyWord", scrambled: "oscle",solution:"close")
-Scramble.create(category:"easyWord", scrambled: "ceefof",solution:"coffee")
-Scramble.create(category:"easyWord", scrambled: "aoct",solution:"coat")
-Scramble.create(category:"easyWord", scrambled: "ionc",solution:"coin")
-Scramble.create(category:"easyWord", scrambled: "cdlo",solution:"cold")
-Scramble.create(category:"easyWord", scrambled: "ofru",solution:"four")
-Scramble.create(category:"easyWord", scrambled: "eerf",solution:"free")
-Scramble.create(category:"easyWord", scrambled: "rmdfoee",solution:"freedom")
-Scramble.create(category:"easyWord", scrambled: "erezef",solution:"freeze")
-Scramble.create(category:"easyWord", scrambled: "serfh",solution:"fresh")
-Scramble.create(category:"easyWord", scrambled: "nfiedr",solution:"friend")
-Scramble.create(category:"easyWord", scrambled: "igft",solution:"gift")
-Scramble.create(category:"easyWord", scrambled: "vgie",solution:"give")
-Scramble.create(category:"easyWord", scrambled: "ladg",solution:"glad")
-Scramble.create(category:"easyWord", scrambled: "sglas",solution:"glass")
-Scramble.create(category:"easyWord", scrambled: "adyl",solution:"lady")
-Scramble.create(category:"easyWord", scrambled: "mlap",solution:"lamp")
+# Scramble.create(category:"easyWord", scrambled: "autbo",solution:"about")
+# Scramble.create(category:"easyWord", scrambled: "ovabe",solution:"above")
+# Scramble.create(category:"easyWord", scrambled: "osascr",solution:"across")
+# Scramble.create(category:"easyWord", scrambled: "cat",solution:"act")
+# Scramble.create(category:"easyWord", scrambled: "aecitv",solution:"active")
+# Scramble.create(category:"easyWord", scrambled: "tctvyiia",solution:"activity")
+# Scramble.create(category:"easyWord", scrambled: "yduocl",solution:"cloudy")
+# Scramble.create(category:"easyWord", scrambled: "oscle",solution:"close")
+# Scramble.create(category:"easyWord", scrambled: "ceefof",solution:"coffee")
+# Scramble.create(category:"easyWord", scrambled: "aoct",solution:"coat")
+# Scramble.create(category:"easyWord", scrambled: "ionc",solution:"coin")
+# Scramble.create(category:"easyWord", scrambled: "cdlo",solution:"cold")
+# Scramble.create(category:"easyWord", scrambled: "ofru",solution:"four")
+# Scramble.create(category:"easyWord", scrambled: "eerf",solution:"free")
+# Scramble.create(category:"easyWord", scrambled: "rmdfoee",solution:"freedom")
+# Scramble.create(category:"easyWord", scrambled: "erezef",solution:"freeze")
+# Scramble.create(category:"easyWord", scrambled: "serfh",solution:"fresh")
+# Scramble.create(category:"easyWord", scrambled: "nfiedr",solution:"friend")
+# Scramble.create(category:"easyWord", scrambled: "igft",solution:"gift")
+# Scramble.create(category:"easyWord", scrambled: "vgie",solution:"give")
+# Scramble.create(category:"easyWord", scrambled: "ladg",solution:"glad")
+# Scramble.create(category:"easyWord", scrambled: "sglas",solution:"glass")
+# Scramble.create(category:"easyWord", scrambled: "adyl",solution:"lady")
+# Scramble.create(category:"easyWord", scrambled: "mlap",solution:"lamp")
+#
+# Scramble.create(category:"mediumWord", scrambled: "obgyoed",solution:"goodbye")
+# Scramble.create(category:"mediumWord", scrambled: "hfraegtarnd",solution:"grandfather")
+# Scramble.create(category:"mediumWord", scrambled: "mroeangdthr",solution:"grandmother")
+# Scramble.create(category:"mediumWord", scrambled: "ieaescnr",solution:"increase")
+# Scramble.create(category:"mediumWord", scrambled: "deenimic",solution:"medicine")
+# Scramble.create(category:"mediumWord", scrambled: "bermem",solution:"member")
+# Scramble.create(category:"mediumWord", scrambled: "nnimoet",solution:"mention")
+# Scramble.create(category:"mediumWord", scrambled: "opeelp",solution:"people")
+# Scramble.create(category:"mediumWord", scrambled: "evercie",solution:"receive")
+# Scramble.create(category:"mediumWord", scrambled: "osssrsic",solution:"scissors")
+# Scramble.create(category:"mediumWord", scrambled: "esrhca",solution:"search")
+# Scramble.create(category:"mediumWord", scrambled: "hrwaeet",solution:"weather")
+# Scramble.create(category:"mediumWord", scrambled: "dgwnedi",solution:"wedding")
+# Scramble.create(category:"mediumWord", scrambled: "surtrucet",solution:"structure")
+# Scramble.create(category:"mediumWord", scrambled: "ntetdsu",solution:"student")
+# Scramble.create(category:"mediumWord", scrambled: "tydus",solution:"study")
+# Scramble.create(category:"mediumWord", scrambled: "dstiup",solution:"stupid")
+# Scramble.create(category:"mediumWord", scrambled: "esctbju",solution:"subject")
+# Scramble.create(category:"mediumWord", scrambled: "esabcsnut",solution:"substance")
+# Scramble.create(category:"mediumWord", scrambled: "sulcesfsu",solution:"successful")
+# Scramble.create(category:"mediumWord", scrambled: "pybarlob",solution:"probably")
+# Scramble.create(category:"mediumWord", scrambled: "rlbmeop",solution:"problem")
+# Scramble.create(category:"mediumWord", scrambled: "couerpd",solution:"produce")
+# Scramble.create(category:"mediumWord", scrambled: "mpsiore",solution:"promise")
+# Scramble.create(category:"mediumWord", scrambled: "oprepr",solution:"proper")
+#
+#
+# Scramble.create(category:"hardWord", scrambled: "octeammadc",solution:"accommodate")
+# Scramble.create(category:"hardWord", scrambled: "rfceihnedhak",solution:"handkerchief")
+# Scramble.create(category:"hardWord", scrambled: "inidct",solution:"indict")
+# Scramble.create(category:"hardWord", scrambled: "eycmtree",solution:"cemetery")
+# Scramble.create(category:"hardWord", scrambled: "snenoieccc",solution:"conscience")
+# Scramble.create(category:"hardWord", scrambled: "rhthym",solution:"rhythm")
+# Scramble.create(category:"hardWord", scrambled: "ltwaygirhp",solution:"playwright")
+# Scramble.create(category:"hardWord", scrambled: "uiemnmnlli",solution:"millennium")
+# Scramble.create(category:"hardWord", scrambled: "prhhaoa",solution:"pharaoh")
+# Scramble.create(category:"hardWord", scrambled: "alionsi",solution:"liaison")
+# Scramble.create(category:"hardWord", scrambled: "lceasnvcoe",solution:"convalesce")
+# Scramble.create(category:"hardWord", scrambled: "receduspe",solution:"supercede")
+# Scramble.create(category:"hardWord", scrambled: "sytacse",solution:"ecstasy")
+# Scramble.create(category:"hardWord", scrambled: "bincaebar",solution:"caribbean")
+# Scramble.create(category:"hardWord", scrambled: "amninatecne",solution:"maintenance")
+# Scramble.create(category:"hardWord", scrambled: "rpoiuano",solution:"pronunciation")
+# Scramble.create(category:"hardWord", scrambled: "eroedmnmc",solution:"recommend")
+# Scramble.create(category:"hardWord", scrambled: "edltucibed",solution:"deductible")
+# Scramble.create(category:"hardWord", scrambled: "hdpuilesb",solution:"published")
+# Scramble.create(category:"hardWord", scrambled: "tsieaerogc",solution:"categories")
+# #
+# #
+# # #
+# Scramble.create(category:"easySentence", scrambled: "my mike name is",solution:"my name is mike")
+#
+# Scramble.create(category:"easySentence", scrambled: "are in school we",solution:"we are in school")
+#
+# Scramble.create(category:"easySentence", scrambled: "are you how",solution:"how are you")
+#
+# Scramble.create(category:"easySentence", scrambled: "you are ok",solution:"are you ok")
+#
+# Scramble.create(category:"easySentence", scrambled: "are you where",solution:"where are you")
+#
+# Scramble.create(category:"easySentence", scrambled: "school I to go",solution:"I go to school")
+#
+# Scramble.create(category:"easySentence", scrambled: "dinner whats for",solution:"whats for dinner")
+#
+# Scramble.create(category:"easySentence", scrambled: "you did eat",solution:"did you eat")
+#
+# Scramble.create(category:"easySentence", scrambled: "like you I",solution:"I like you")
+#
+# Scramble.create(category:"easySentence", scrambled: "I homework hate",solution:"I hate homework")
+#
+# Scramble.create(category:"easySentence", scrambled: "friend that is your",solution:"is that your friend")
+#
+# Scramble.create(category:"easySentence", scrambled: "is that you",solution:"is that you")
+#
+# Scramble.create(category:"easySentence", scrambled: "old are how you",solution:"how old are you")
+#
+# Scramble.create(category:"easySentence", scrambled: "her say to hi",solution:"say hi to her")
+#
+# Scramble.create(category:"easySentence", scrambled: "me from hi",solution:"hi from me")
+#
+# Scramble.create(category:"easySentence", scrambled: "where do live you",solution:"where do you live")
+#
+# Scramble.create(category:"easySentence", scrambled: "you are hungry",solution:"are you hungry")
+#
+# Scramble.create(category:"easySentence", scrambled: "love I burgers",solution:"I love burgers")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "she gave a him look mean",solution:"she gave him a mean look")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "abuse I cannot this bear of level",solution:"I cannot bear this level of abuse")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "voice in asked level Tom a",solution:"Tom asked in a level voice")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "am english still I learning",solution:"I am still learning english")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "please speak slowly so",solution:"so please speak slowly")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "can't I is it believe how hot today",solution:"I can't believe how hot it is today")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "here you what do so do",solution:"so what do you do here")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "on your I this love thoughts would",solution:"I would love your thoughts on this")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "you me can speak please up excuse",solution:"excuse me can you please speak up")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "me this understand let if see I",solution:"let me see if I understand this")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "repeat can you that please",solution:"can you please repeat that")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "rules should any know I are about there",solution:"are there any rules I should know about")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "can you help who know me do",solution:"do you know who can help me")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "ate hamburger delicious I a",solution:"I ate a delicious hamburger")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "only friend fries my some ate",solution:"my friend only ate some fries")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "building is state empire the tall",solution:"the empire state building is tall")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "played violin well you the so",solution:"you played the violin so well")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "was cat the under bed the",solution:"the cat was under the bed")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "he not did the doorbell hear is why ring that",solution:"that is why he did not hear the doorbell ring")
+#
+# Scramble.create(category:"mediumSentence", scrambled: "to going dance is tracy tomorrow",solution:"tracy is going to dance tomorrow")
+#
+# Scramble.create(category:"hardSentence", scrambled: "Mary Samantha at for and I station looked bus the",solution:"I looked for Mary and Samantha at the bus station")
+#
+# Scramble.create(category:"hardSentence", scrambled: "at Samantha station the arrived bus before and noon Mary",solution:"Mary and Samantha arrived at the bus station before noon")
+#
+# Scramble.create(category:"hardSentence", scrambled: "on I and bus left Mary Samantha arrived the before",solution:"Mary and Samantha left on the bus before I arrived")
+#
+# Scramble.create(category:"hardSentence", scrambled: "arrived because station I bus not the station Mary Samantha see them did noon before at at the and",solution:"I did not see them at the station because Mary and Samantha arrived at the bus station before noon")
+#
+# Scramble.create(category:"hardSentence", scrambled: "late the the was that at while train station waited realized train Joe he",solution:"Joe realized that the train was late while he waited at the train station")
+#
+# Scramble.create(category:"hardSentence", scrambled: "how taking this semester many you are credits",solution:"how many credits are you taking this semester")
+#
+# Scramble.create(category:"hardSentence", scrambled: "did this come decide to why school you to",solution:"why did you decide to come to this school")
+#
+# Scramble.create(category:"hardSentence", scrambled: "many did your essays you write to how for pages have",solution:"how many pages did you have to write for your essays")
+#
+# Scramble.create(category:"hardSentence", scrambled: "do any write to you that have papers class in",solution:"do you have to write any papers in that class")
+#
+# Scramble.create(category:"hardSentence", scrambled: "to I find something until I'm do just watching show a",solution:"I'm just watching a show until I find something to do")
+#
+# Scramble.create(category:"hardSentence", scrambled: "means do to bored nothing being having",solution:"being bored means having nothing to do")
+#
+# Scramble.create(category:"hardSentence", scrambled: "we our go whenever relatives boring always to It's",solution:"It's always boring whenever we go to our relatives")
+#
+# Scramble.create(category:"hardSentence", scrambled: "a played we not in basketball time long have",solution:"we have not played basketball in a long time")
+#
+# Scramble.create(category:"hardSentence", scrambled: "go we play some down street and basketball the can",solution:"can we go down the street and play some basketball")
+#
+# Scramble.create(category:"hardSentence", scrambled: "should the making be of computer choice when my an factor memory important",solution:"should memory of the computer be an important factor when making my choice")
+#
+# Scramble.create(category:"hardSentence", scrambled: "help most computers places it with that offer setting sell up",solution:"most places that sell computers offer help with setting it up")
+#
+# Scramble.create(category:"hardSentence", scrambled: "mostly storing and for all computer photos music I am my using the",solution:"I am using the computer mostly for storing all my photos and music")
+#
+# Scramble.create(category:"hardSentence", scrambled: "a desktop recommend would of a instead buy laptop you I",solution:"I would recommend you buy a laptop instead of a desktop")
+#
+# Scramble.create(category:"hardSentence", scrambled: "unhealthy he and is the brother my tired think is time all I",solution:"my brother is tired all the time and I think he is unhealthy")
+#
+# Scramble.create(category:"hardSentence", scrambled: "all movies story lines of I love romantic comedy the",solution:"I love all the story lines of romantic comedy movies")
