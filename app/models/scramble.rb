@@ -1,0 +1,2 @@
+class Scramble < ApplicationRecord
+end

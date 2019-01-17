@@ -205,7 +205,7 @@
 # ", solutions: "Tony is with me. We will meet you at lunch time
 # ", words_to_use:  "It,You,Many,Herself,He,You,They,We,I,He,It,Us,We")
 
-# 
+#
 # PartOfSpeech.create(category:"noun" , definition:"A noun is a part of speech used to name a person, animal, place, thing, or abstract concept. 
 # The simplest definition of a noun is a thing and nouns are the basic building blocks of sentences. These things can represent a person, animal, place, idea, emotion – almost any thing that you can think of." , examples:"Man, Mountain, State, Ocean, Country, Building, Cat, Airline, Walt Disney, Mount Kilimanjaro, Minnesota, Atlantic Ocean and Australia" , sentences:"The ___ fell and broke" , solutions:"The cup fell and broke" , words_to_use:"cup,beauty,buses,cities,country’s,hunters,students,john,restaurant,eiffel,tower,money,trees,dog,cat" )
 #
@@ -499,3 +499,29 @@
 #
 #
 # PartOfSpeech.create(category: "interjection", definition: "An interjection is a word or phrase that is grammatically independent from the words around it, and mainly expresses feeling rather than meaning, We use interjections to express emotions such as pleasure, surprise, shock and disgust. Most interjections are just sounds, rather than actual words, and come at the beginning or at the end of what we say. Interjections are more common in speaking than in writing.",examples: "Oh Dear,Pip Pip,Shoot,Well, Duh",sentences:"___ _____! That was a stupid thing to do!" ,solutions: "Well duh! That was a stupid thing to do!", words_to_use:"Ahh,Alas,Bah,Bless you,Cheerio,Congrats,Crikey,Good grief,Grrr,Humph,Oh dear,Pip pip,Shoot,Well, duh" )
+
+
+Scramble.create(category:"easyWord", scrambled: "autbo",solution:"about")
+Scramble.create(category:"easyWord", scrambled: "ovabe",solution:"above")
+Scramble.create(category:"easyWord", scrambled: "osascr",solution:"across")
+Scramble.create(category:"easyWord", scrambled: "cat",solution:"act")
+Scramble.create(category:"easyWord", scrambled: "aecitv",solution:"active")
+Scramble.create(category:"easyWord", scrambled: "tctvyiia",solution:"activity")
+Scramble.create(category:"easyWord", scrambled: "yduocl",solution:"cloudy")
+Scramble.create(category:"easyWord", scrambled: "oscle",solution:"close")
+Scramble.create(category:"easyWord", scrambled: "ceefof",solution:"coffee")
+Scramble.create(category:"easyWord", scrambled: "aoct",solution:"coat")
+Scramble.create(category:"easyWord", scrambled: "ionc",solution:"coin")
+Scramble.create(category:"easyWord", scrambled: "cdlo",solution:"cold")
+Scramble.create(category:"easyWord", scrambled: "ofru",solution:"four")
+Scramble.create(category:"easyWord", scrambled: "eerf",solution:"free")
+Scramble.create(category:"easyWord", scrambled: "rmdfoee",solution:"freedom")
+Scramble.create(category:"easyWord", scrambled: "erezef",solution:"freeze")
+Scramble.create(category:"easyWord", scrambled: "serfh",solution:"fresh")
+Scramble.create(category:"easyWord", scrambled: "nfiedr",solution:"friend")
+Scramble.create(category:"easyWord", scrambled: "igft",solution:"gift")
+Scramble.create(category:"easyWord", scrambled: "vgie",solution:"give")
+Scramble.create(category:"easyWord", scrambled: "ladg",solution:"glad")
+Scramble.create(category:"easyWord", scrambled: "sglas",solution:"glass")
+Scramble.create(category:"easyWord", scrambled: "adyl",solution:"lady")
+Scramble.create(category:"easyWord", scrambled: "mlap",solution:"lamp")
